@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome to Doodle</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 </head>
 <body>
     <div class="main-section">
@@ -11,8 +12,10 @@
         </div>
 
         <div class="search-container">
-            <input type="text" name="term" class="search-box">
-            <input type="submit" value="Search" class="search-button">
+            <form action="search.php" method="GET">
+                <input type="text" name="term" class="search-box">
+                <input type="submit" value="Search" class="search-button">
+            </form>
         </div>
     </div>
 </body>
