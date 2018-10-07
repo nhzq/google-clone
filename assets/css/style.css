@@ -50,6 +50,20 @@ body {
     width: 125px;
 }
 
+.main-section .search-container .search-box {
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    height: 44px;
+    border-radius: 2px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-szie: 16px;
+    width: 70%;
+    max-width: 630px;
+    color: #000;
+}
+
 
 
 
