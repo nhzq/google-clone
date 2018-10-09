@@ -44,7 +44,6 @@
                             Sites
                         </a>
                     </li>
-
                     <li>
                         <a href='<?php echo "search.php?term=$term&type=images"; ?>'>
                             Images
