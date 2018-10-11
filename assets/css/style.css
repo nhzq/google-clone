@@ -145,3 +145,12 @@ body {
 .tabs-container .tab-list li a {
     text-decoration: none;
 }
+
+.tabs-container .tab-list li.active {
+    border-bottom: 3px solid #1a73e8;
+}
+
+.tabs-container .tab-list li.active a {
+    font-weight: bold;
+    color: #1a73e8;
+}
