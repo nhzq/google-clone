@@ -1,5 +1,4 @@
 <?php 
-
 class DomDocumentParser
 {
     private $doc;
@@ -15,9 +14,13 @@ class DomDocumentParser
 
         $context = stream_context_create($options);
 
-        $this->$doc = new DomDocument();
-        @$this->$doc->loadHTML(file_get_contents($url, false, $context));
+        $this->doc = new DomDocument();
+        @$this->doc->loadHTML(file_get_contents($url, false, $context));
+    }
+
+    public function getlinks()
+    {
+        return $this->doc->getElementsByTagName("a");
     }
 }
-
 ?>
